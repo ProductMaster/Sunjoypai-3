@@ -1,0 +1,127 @@
+@charset "utf-8";
+body{_background-attachment:fixed; font-family:"微软雅黑";}	
+
+
+/*首页banner*/
+.mainbanner{height:685px;overflow:hidden; position:relative;}
+.mainbanner_window{left:50%;width:2000px;height:685px;overflow:hidden;margin-left:-
+
+1000px;position:absolute;}
+.mainbanner_window ul{width:999999px;height:685px;position:relative;}
+.mainbanner_window li{background:rgb(204, 204, 204);width:2000px;height:685px;text-
+
+align:center;font-size:0px;float:left;display:inline;}
+.mainbanner_listBox{top:651px;display:block;width:100%;height:24px;padding-
+
+top:10px;_height:29px;_padding-top:5px;filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-
+
+opacity: 0.5; opacity: 0.5; background:#fff;position:absolute;}
+	.mainbanner_list{width:980px;margin:0 auto;text-align:right;}
+	.mainbanner_list li{width:15px;height:15px;overflow:hidden;display:inline;margin:0px 
+
+3px;}
+	.mainbanner_list a{background:url("../images/bannerQiu.png") no-
+
+repeat;width:8px;height:8px;overflow:hidden;display:inline-block;}
+	.mainbanner_list li.active a{background-position:0 -10px;text-decoration:none;}
+	.mainbanner_list li a:hover{background-position:0 -10px;text-decoration:none;}
+
+/*产品列表*/
+.productTitle{height:20px;line-height:20px;overflow:hidden;color:#00aeef;border-bottom:1px 
+
+solid #ccc;margin-bottom:10px;}
+	.productTitle a{color:#00aeef;}
+	.productTitle a:hover{color:#f00;}
+
+.productIn{width:716px;overflow:hidden;}
+	.productIn dl{width:228px;float:left;margin:10px 10px 0 0;}
+	.productIn dt{width:228px;height:122px;overflow:hidden;font-size:0px;}
+	.productIn dd{font-size:12px;line-height:24px;}
+		.productIn dd a{color:#464646;}
+		.productIn dd a:hover{color:#f00;}
+
+
+/*产品详情*/
+.showTitle{width:716px;overflow:hidden;}
+	.showTitle li{float:left;height:27px;line-height:27px;background:#e8e8e8;padding-
+
+left:10px;width:224px;cursor:pointer;}
+		.showTitle li a{color:#464646;font-family:"微软雅
+
+黑";float:left;height:27px;cursor:pointer;}
+		.showTitle li a:hover{color:#00aeef;float:left;height:27px;}
+		.showTitle li.hover a{color: #00aeef;cursor: 
+
+pointer;float:left;height:27px;}
+.showIn{width:716px;overflow:hidden;}
+	
+	.show360-in{width:716px;}
+		.show360-in-title{background:url(../images/rightBg.png) repeat-x center 
+
+bottom;height:20px;margin-top:20px;}
+			.show360-in-title h3{font-size:14px;color:#555;font-weight:300;font
+
+-family:"微软雅黑";background:#fff;height:20px;line-height:20px;width:100px;}
+		.show360-in-content{color:#333;}
+			.show360-in-content b{line-height:40px;}
+			.show360-in-content p{line-height:24px;}
+			
+			.show360-in-content table{border-collapse:collapse;}
+			.show360-in-content td{border:#ccc solid 1px; padding:5px;text-
+
+align:center;}
+		
+
+/*新闻中心*/
+.newsIn{overflow:hidden;margin-top:10px;}
+	.newsIn li{width:95%;height:30px;line-height:30px;border-bottom:1px dashed 
+
+#ccc;background:url(../images/img.png) no-repeat left center;padding-left:14px;}
+	.newsIn li a{float:left;color:#464646;}
+	.newsIn li a:hover{color:#f00;}
+	.newsIn li span{float:right;color:#ccc;}
+
+/*分页*/
+.shartPage{width:716px;text-align:center;overflow:hidden;margin-top:10px;padding:5px 0px;}
+	.shartPage a{padding:0px 5px;border:1px solid #ccc;background:#fff;color:#464646;}
+	.shartPage a:hover{border:1px solid #00aeef;color:#00aeef;}
+	.shartPage a.shartPage-li{border:1px solid #00aeef;color:#00aeef;}
+
+
+/*人才招聘*/
+.recruitmentIn{width:716px;overflow:hidden;}
+	.recruitmentIn table{margin-top:20px;}
+	.recruitmentIn td{padding:5px;}
+		.recruitmentIn td span{color:#f00;margin-right:10px;font-family:"宋体";}
+		.recruitmentIn td .recruitmentIn-input{background:url(../images/in_biao.gif) 
+
+repeat-x left top;border:1px solid #ccc;}
+		.recruitmentIn td .recruitmentIn-input:focus{border:1px solid #1ea28e;}
+		.recruitmentIn td .recruitmentIn-input:hover{background:#e9ffe0;border:1px 
+
+solid #1ea28e;}
+		.recruitmentIn td .recruitmentIn-button{height:24px;padding:0px 10px;line-
+
+height:24px;color:#fff;border:none;background:#00aeef;cursor:pointer;}
+		.recruitmentIn-width{width:187px;height:24px;display:inline;font-
+
+family:"Arial";padding-left:5px;line-height:24px;}
+
+/*联系我们*/
+.contactIn{width:716px;overflow:hidden;margin-top:10px;}
+	.contactIn-left{width:400px;}
+	.contactIn-right{width:290px;}
+		.contactIn-right h3{color:#00aeef;line-height:30px;font-size:14px;font-
+
+weight:700;}
+		.contactIn-right p{line-height:24px;}
+
+
+
+
+
+
+
+
+
+

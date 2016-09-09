@@ -1,0 +1,359 @@
+.none{
+	display: none;
+}
+/**
+涓讳綋閮ㄥ垎鐨刢ss鏍峰紡
+*/
+.title_tab{
+	border-bottom:2px solid #ccc;
+	width:100%;
+	line-height: 2;
+}
+.list{
+	padding:2% 0;
+	border-bottom: 1px solid #ccc; 
+}
+.list:nth-of-type(2){
+	border-bottom:1px solid #ccc;
+}
+.list label{
+	font-size:16px;
+	margin-left:6%;
+}
+.list input{
+	color: #727272;
+	width:45%;
+	font-size:16px;
+	line-height:2;
+	margin-left:5%;
+	padding-left: 2%
+}
+.list span{
+	color: #000;
+	font-size:16px;
+	display: inline-block;
+}
+b{
+	font-weight: normal;
+	font-size:16px;
+}
+.list select{
+	color: #696969;
+	font-size:16px;
+	width:13%;
+	margin-left:5%;
+	line-height:2;
+	padding-left:2%;
+}
+.list select:nth-of-type(2){
+	margin-left:0;
+}
+p{
+	color: #999999;
+	font-size:12px;
+	margin:2% 5%;
+	letter-spacing:1px;
+}
+/**
+鏂版棫鎴挎敼閫犵殑鏍峰紡
+*/
+.renovation{
+	width:90%;
+	margin:0 5%;
+}
+.renovation li{
+	display:inline-block;
+	width:44%;
+	line-height: 2;
+	text-align:center;
+	color: #000;
+}
+.renovation li.active{
+	color: #f96c17;
+	width:54%;
+	border:1px solid #f86900;
+	border-bottom:none !important;
+	background:#fff;
+	z-index:9;	
+}
+ .houseDecoration{
+	width:89%;
+	margin:-1px 5% 5%;
+	border:1px solid #f96c17;
+}
+.houseDecoration dl{
+	width:22%;
+	margin: 4% 0 2% 1%;
+	display: inline-block;
+	
+}
+.houseDecoration dl.old{
+	width:100%;
+}
+.houseDecoration dl.old dd.oldList{
+	width:100%;
+	margin-left:0.5rem;
+}
+.houseDecoration dl dd{
+	width: 6 rem;
+    height: 6 rem;
+	margin-left:10%;
+	position:relative;
+}
+.houseDecoration dl.old dd.oldList img.degree {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5px;
+ }
+.houseDecoration dl dd img{
+	width:100%;
+	height:100%;
+}
+.houseDecoration dl dt span{
+	display:block;
+	line-height:2;
+	margin-top:10%;
+	text-align:center;
+	font-size:12px;
+} 
+html{
+    width: 100%;
+    font-size: 62.5%;
+}
+/* .oldList{
+  margin:1rem 0.4rem 0;
+} */
+img.degree, span.name, span.num i, span.num input.areaNum{
+  display: inline-block;
+  vertical-align: middle;
+}
+ 
+ span.name{
+    width:36%;
+    font-size: 1.6rem;
+    margin: 0 1rem;
+ }
+ span.num i{
+   width:2rem;
+   border:1px solid #666;
+   height:2.6rem;
+   line-height: 2.6rem;
+   margin:0 -1px;
+   padding: 0 0.5rem;
+   font-size: 1.6rem;
+   font-style: normal;
+   z-index: 2;
+    
+ }
+  span.num input.areaNum{
+   width: 3rem;
+   height: 2.6rem;
+   padding: 0 0.2rem;
+   border:1px solid #666;
+   margin: 0;
+   text-align:center;
+    
+ }
+/**
+閫夋嫨鏂版棫澧欏闈㈤棶棰�
+*/
+em{
+	display:none;
+	width: 15px;
+    height: 15px;
+    background: url(../../images/refresh/selected.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 6%;
+    left: 0;
+}
+/*
+鐒曟柊椋庢牸鐨刢ss鏍峰紡
+*/
+.update_style{
+	width:100%;
+	margin-top:5%;
+	padding-bottom:5%;
+	height:75px;
+	border-bottom:1px solid #ccc;
+}
+.update_left{
+	float:left;
+	color: #000;
+	width:30%;
+	margin-left:5%;
+	line-height:30px;
+	font-size:18px;
+}
+.bg1{
+	width:30px;
+	height: 30px;
+	float: left;
+	background-image: url(../images/select1.png);
+	transform: scale(0.8,0.8);
+}
+.bg2{
+	width: 30px;
+	height:30px;
+	float:left;
+	transform: scale(0.8,0.8);
+	background-image: url(../images/select2.png);
+}
+
+/*
+鏉愭枡閫夐」鍗＄殑css鏍峰紡
+*/
+.update_right{
+	float:right;
+	width:60%;
+	height:90px;
+}
+.style_list li{
+	line-height:2;
+	text-align: center;
+	display:inline-block;
+	color: #000;
+	width:41%;
+	font-size:0.8rem;
+}
+.style_list li.active{
+	line-height:2;
+	border-bottom: none !important;
+	display: inline-block; 
+	color: #f96c17;
+  	width:41%;
+	border:1px solid #f96c17;
+	border-bottom:none;
+	font-size:.8rem;
+}
+.ul_select{
+	width:79.5%;
+	border:1px solid #f96c17;
+	color: #696969;
+	font-size:1rem;
+	line-height:2;
+	padding-left:5%;
+}
+
+.style_left img{
+	vertical-align: middle;
+	width: 20px;
+    height: 20px;
+}
+.style_left span{
+	color: #696969;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left:5px;
+	font-size:16px;
+}
+.list textarea{
+	width:65%;
+	color: #727272;
+	height:80px;
+	margin-top:10px;
+	margin-left:5%;
+	font-size:16px;
+}
+.tips{
+	border-bottom:none;
+}
+/*
+鎴垮眿鎯呭喌
+*/
+.houseProblems p {
+    border-top:1px solid #ccc;
+    margin: 0;
+    padding: 2% 6%;
+}
+.problemTitle{
+	border:none !important;
+}
+.houseProblems span.problemList{
+	display: inline-block;
+	width:20%;
+	margin-left:3%;
+	border:1px solid #ccc;
+	line-height:2;
+	text-align: center;
+	font-size:14px;
+}
+.houseProblems span.on{
+	display: inline-block;
+	width:20%;
+	margin-left:3%;
+	border:none;
+	background:url(../images/problemBg.png) no-repeat;
+	background-size:100% 100%;
+}
+.houseProblems span:first-child{
+	margin-left:6%;
+}
+/**
+鏄惁浣跨敤鑴氭墜鏋�
+*/
+.useStage span:first-child{
+	margin-left:6%;
+}
+.useStage span.useFlag{
+	display: inline-block;
+	width:20%;
+	margin-left:3%;
+	border:1px solid #ccc;
+	line-height:2;
+	text-align: center;
+	font-size:14px;
+}
+.useStage span.on{
+	display: inline-block;
+	width:20%;
+	margin-left:3%;
+	border:none;
+	background:url(../images/problemBg.png) no-repeat;
+	background-size:100% 100%;
+}
+/**
+澶栧鐨勭剷鏂伴鏍�
+*/
+.outSelect{
+	color: #696969;
+	width: 61%;
+	border: 1px solid #CCC;
+	margin-left: 5%;
+	padding-left: 2%;
+	line-height: 2;
+}
+.outSelect img{
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+}
+.outStyle{
+	height:70px;
+}
+.outSelect em{
+	font-style: normal;
+	padding-left: 2%;
+	font-size:16px;
+	vertical-align:middle;
+}
+.note{
+	float:left;
+	margin-top:20px;
+}
+/**
+搴曢儴鎸夐挳鐨刢ss
+*/
+.calculate{
+	margin:5%;
+    width: 90%;
+    color: #fff;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #f8c600;
+    border: none;
+    box-shadow: 1px 2px 1px #f7e395;
+    border-radius: 2px;
+}
+ 

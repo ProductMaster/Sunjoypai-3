@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/mvc 
+		http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+		http://www.springframework.org/schema/context 
+		http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/tx
+      	http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+	default-autowire="byType">
+
+	<mvc:annotation-driven />
+	<mvc:interceptors>
+	    <mvc:interceptor>
+	        <mvc:mapping path="/app/*" />
+	        <bean class="com.taoists.common.interceptor.RemoteAeecssInterceptor">
+	           <!-- 
+	           <property name="excludeUrlPatterns">  
+                   <list>  
+                       <value>/resources/**</value>  
+                   </list>  
+               </property>
+                -->
+	        </bean>
+	    </mvc:interceptor>
+	</mvc:interceptors>
+	<context:component-scan base-package="com.taoists" />
+
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/pages/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<mvc:resources mapping="/resources/**" 		location="/resources/" />
+	<mvc:resources mapping="/images/**"    		location="/images/" />
+	<mvc:resources mapping="/pic/**"    		location="/pic/" />
+	<mvc:resources mapping="/js/**"        		location="/js/" />
+	<mvc:resources mapping="/css/**"       		location="/css/" />
+	<mvc:resources mapping="/FusionCharts/**" 	location="/FusionCharts/" />
+	<mvc:resources mapping="/ckeditor/**" 		location="/ckeditor/" />
+	<mvc:resources mapping="/SweetTooltip/**" 	location="/SweetTooltip/" />
+	<mvc:resources mapping="/favicon.ico"       location="/favicon.ico" />
+	<mvc:resources mapping="/fonts/**"          location="/fonts/" />
+
+	<tx:annotation-driven transaction-manager="transactionManager" />	
+	
+	<!-- <mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/sys/**" />
+			<mvc:mapping path="/business/**" />
+			<mvc:mapping path="/card/**" />
+			<mvc:mapping path="/perspective/**" />
+			<mvc:mapping path="/foundation/**" />
+			<mvc:mapping path="/statis/**" />
+			<mvc:mapping path="/menu" />
+			<mvc:mapping path="/login/editPassword" />
+			<mvc:mapping path="" />
+			<bean class="com.taoists.sys.interceptor.AccessInterceptor" />
+		</mvc:interceptor>
+	</mvc:interceptors> -->
+</beans>

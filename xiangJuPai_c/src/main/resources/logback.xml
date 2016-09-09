@@ -1,0 +1,43 @@
+<configuration scan="true" scanPeriod="300 seconds" debug="false">
+    <property name="APP_Name" value="xiangJuPai_c" />    
+    <contextName>${APP_Name}</contextName> 
+	
+	<!-- appender -->
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder charset="UTF-8"> <!-- encoder 可以指定字符集，对于中文输出有意义 -->
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender"> 
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">            
+        	<level>TRACE</level>        
+        </filter>	   
+ 	    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">    
+		    <fileNamePattern>logs/xiangJuPai_c_%d{yyyy-MM-dd}.log</fileNamePattern>    
+        </rollingPolicy>    
+ 		<layout class="ch.qos.logback.classic.PatternLayout">  
+     		<pattern>%-20(%d{HH:mm:ss.SSS} [%thread]) %-5level %logger{80} - %msg%n</pattern>  
+    	</layout>  
+    </appender>  	
+	
+	<!-- loggers -->
+	<!-- root缺省日志 -->
+	<root level="warn">
+		<appender-ref ref="FILE" />
+		<appender-ref ref="STDOUT" />
+	</root>
+	<!-- 应用日志 -->
+	<logger name="com.taoists" level="debug"/>
+	<!-- 第三方包的日志过滤级别，用于避免刷屏 -->
+    <logger name="org.hibernate" level="warn"/>    
+    <logger name="org.springframework" level="warn"/>    
+    <logger name="com.opensymphony" level="warn"/>    
+    <logger name="org.apache" level="warn"/>	
+    <!-- show parameters for hibernate sql 专为 Hibernate 定制 -->    
+    <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="warn"/>    
+    <logger name="org.hibernate.type.descriptor.sql.BasicExtractor" level="warn"/>    
+    <logger name="org.hibernate.SQL" level="warn"/>    
+    <logger name="org.hibernate.engine.QueryParameters" level="warn"/>    
+    <logger name="org.hibernate.engine.query.HQLQueryPlan" level="warn"/>    
+
+</configuration>

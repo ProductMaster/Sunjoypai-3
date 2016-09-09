@@ -1,0 +1,91 @@
+@charset "utf-8";/*CSS reset*/
+html{color:#555;background:#FFF;font-size:12px;font-family:Verdana,"微软雅黑",sans-serif;}
+body,div,dl,a,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,select{margin:0;padding:0;font-family:Verdana,"微软雅黑",sans-serif;}
+table{border-collapse:collapse;border-spacing:0;}
+em,cite{font-style:normal;}
+fieldset,img{border:0;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+a:link,a:visited{ text-decoration:none;font-family:Verdana,"微软雅黑",sans-serif;}
+a:hover,a:active{ text-decoration:none;}
+
+.fb{font-weight:900;}
+
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.cb{clear:both;height:0px;*line-height:0px;*overflow:hidden;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.none{display:none;}
+.ml5{margin-left:5px;}
+.ml10{margin-left:10px;}
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.w173{width:173px;}
+.w797{width:797px;}
+.pt20{padding-top:20px;}
+.db{display:block;}
+
+.wrap{width:1000px;margin:0 auto;}
+
+/*头部*/
+.headBox{width:100%;height:140px;background:url(../images/topBg.png) no-repeat center top #009dee;}
+.headIn{width:1001px;height:140px;margin:0 auto;position:relative;background:url(../images/topBg.png) no-repeat center top #009dee;}
+.headLogo{width:159px;height:120px;overflow:hidden;background:url(../images/headLogo.png) no-repeat;float:left;text-indent:-300px;margin-top:7px;}
+#nav{height:140px;overflow:hidden;float:left;margin-left:60px;display:inline;}
+#nav li{float:left;}
+#nav li a{display:block;text-align:center;font-size:16px;padding:0 25px;height:137px;line-height:177px;color:#fff;border-bottom:3px solid #009dee;}
+#nav li a:hover{color:#014261;border-bottom:3px solid #fffc02;background:rgba(193, 212, 232, 0.31);}
+#nav li a.hover{color:#014261;border-bottom:3px solid #fffc02;background:rgba(193, 212, 232, 0.31);}
+.headLink{width:128px;height:32px;overflow:hidden;background:url(../images/headLink.png) no-repeat;position:absolute;top:75px;right:0px;}
+.headLink a{width:64px;height:32px;overflow:hidden;float:left;text-align:center;line-height:32px;color:#fff;}
+
+
+/*副导航*/
+.fnav{background:#e9e9e9;height:40px;line-height:40px}
+.fnav li{float:left;padding:0 36px;font-size:16px;}
+.fnav em{float:left;color:#999}
+.fnav li a{color:#333}
+.fnav li a.hover{color:#f70;}
+.fnav ul{padding-left:50px;}
+.gwc{float:right;font-size:14px;}
+.gwc .fa-shopping-cart{font-size:16px;color:#f70;}
+.gwc a{color:#f70;padding:0 10px 0 8px}
+
+	
+/*尾部*/
+.footBox{ background:#fff;color:#515151;font-family:"微软雅黑";font-size:14px;position:relative;}
+.footBox .footIn{padding:30px 0;}
+.footBox .footWrap{margin:0 auto;width:1001px;}
+.footBox .footRow{overflow:hidden;}
+.footBox .footRow-in{width:210px;float:left;}
+.footBox .footRow-in li{width:210px;}
+.footBox .footRow-in li p{margin-bottom:5px;color:#2f2e2e;font-size:18px;}
+.footBox .footRow-in li a{color:#000;font-size:12px;margin-top:15px;display:inline-block;}
+.footBox .footRow-in li a:hover{color:#f00;}
+
+.footBox .footRow-ins{width:370px;float:left;overflow:hidden;}
+.footBox .footRow-ins dl{width:370px;overflow:hidden;}
+.footBox .footRow-ins dt{width:133px;float:left;text-align:center;}
+.footBox .footRow-ins dt p{font-size:11px;}
+.footBox .footRow-ins dd{width:227px;float:right;font-size:12px;margin-top:10px;}
+.footBox .footRow-ins dd p{margin-bottom:10px;color:#2f2e2e;font-size:18px;}
+.footBox .footRow-ins dd span{color:#2f2e2e;font-size:24px;}
+.footBox .footRow-ins dd a{color:#fff;font-size:12px;background:#24b2e1;padding:3px 10px;display:inline-block;margin-right:10px;}
+
+
+.copyrightBox{background:#031116;width:100%;}
+.copyrightBox .copyrightIn{width:1001px;margin:0 auto;padding:20px 0;text-align:center;line-height:24px;color:#dfe4e6;background:#031116;}

@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{width:100%;height:auto;overflow:hidden;}
+.banner img{width:100%;height:auto;}
+
+.navbox{width:100%; overflow:hidden;background:#FFF;border-bottom:10px solid #f8f8f8;}
+.navbox ul{padding-bottom:1em;overflow:hidden;}
+.navbox ul li{float:left;width:25%;text-align:center;}
+.navbox ul li a{ display:inline-block;width:100%; height:100%;padding:1em 0px 0px;font-size:1.4rem;}
+.navbox ul li a i{width:48px;height:48px;display:inline-block; border-radius:100%;overflow:hidden;}
+.navbox ul li a i.bookmark{background:url(../images/index1.png) no-repeat #f7e7ee center center;background-size:80% 80%;}
+.navbox ul li a i.tags{background:url(../images/index2.png) no-repeat #ffffe5 center center;background-size:80% 80%;}
+.navbox ul li a i.thumbs-o-up{background:url(../images/index3.png) no-repeat #e0fcff center center;background-size:80% 80%;}
+.navbox ul li a i.stack-exchange{background:url(../images/indexIco-4.png) no-repeat #dff7db center center;background-size:80% 80%;}
+.navbox ul li a p{margin-top:0.6em;font-size:1.4rem;color:#999999;}
+
+.indexSearch-box{margin:0 1em;overflow:hidden;}
+.indexSearch{width:100%;height:auto;overflow:hidden;position:relative;}
+.indexSearch img{width:100%;height:auto;overflow:hidden;}
+.indexSearch p{height:3em;line-height:3em;background:rgba(0, 0, 0, 0.43);position:absolute;top:0;left:0;width:100%;color:#fff;font-size:1.4rem;padding:0 1em;text-align:center;}
+
+.indexSearch-form{height:50px;background:rgba(239, 239, 239, 0.72);position:fixed;bottom:0;left:0;z-index:100;width:100%;color:#fff;font-size:1.4rem;padding:10px;text-align:center;overflow:Hidden;}
+.indexSearch-form-input{width:75%;float:left;border-radius:5px;border:1px solid #cccccc;height:30px;line-height:30px;text-align:center;color:#333;}
+.indexSearch-form-button{width:23%;float:Right;border-radius:5px;border:none;background:#f86900;color:#fff;height:30px;line-height:30px;font-size:1.4rem;}
+
+.indexSearch-bottom{color:#3e3a39;font-size:1.4rem;line-height:180%;margin-top:1em;}
+
+.indexBox{padding:1em;overflow:hidden;margin-bottom:5em;}
+.indexBox h3{color:#333333;font-weight:bold;font-size:1.6rem;overflow:hidden;margin:1em 0 0.5em 0;text-align:center;}
+.indexCharacteristic{overflow:Hidden;margin-right:-2%;}
+.indexCharacteristic dl{background:#f1f1f1;width:23%;margin-right:2%;float:left;height:auto;}
+.indexCharacteristic dt{color:#ff5a00;font-weight:900;font-size:1.6rem;text-align:center;line-height:3em;}
+.indexCharacteristic dd{padding:.5em .5em 1em .5em;color:#666;line-height:180%;height:14em;position:relative;}
+.indexCharacteristic dd p{color:#39a2f5;font-weight:900;font-size:1.6rem;text-align:center;line-height:3em;position:absolute;bottom:0;width:100%;left:0;}
+
+.indexCharacteristic ul{padding-bottom:1em;overflow:hidden;}
+.indexCharacteristic ul li{float:left;width:25%;text-align:center;}
+.indexCharacteristic ul li a{ display:inline-block;width:100%; height:100%;padding:1em 0px 0px;font-size:1.4rem;}
+.indexCharacteristic ul li a i{width:48px;height:48px;display:inline-block; border-radius:100%;border:1px solid #f86900;position:relative;}
+.indexCharacteristic ul li a p{margin-top:0.6em;font-size:1.4rem;color:#999999;}
+.indexCharacteristic ul li a i span{color:#333;background:#fff;position:absolute;left:-10px;top:-5px;display:Inline-block;font-size:1.4rem;height:1.5em;line-height:1.5em;font-style:normal;}
+.indexCharacteristic ul li a i.characteristic-1{background:url(../images/characteristic-1.png) no-repeat center center;background-size:60% 60%;}
+.indexCharacteristic ul li a i.characteristic-2{background:url(../images/characteristic-2.png) no-repeat center center;background-size:60% 60%;}
+.indexCharacteristic ul li a i.characteristic-3{background:url(../images/characteristic-3.png) no-repeat center center;background-size:60% 60%;}
+.indexCharacteristic ul li a i.characteristic-4{background:url(../images/characteristic-4.png) no-repeat center center;background-size:60% 60%;}
+.indexCharacteristic ul li a i.characteristic-5{background:url(../images/characteristic-5.png) no-repeat center center;background-size:60% 60%;}
+.indexCharacteristic ul li a i.characteristic-6{background:url(../images/characteristic-6.png) no-repeat center center;background-size:60% 60%;}
+
+.indexfoot{overflow:hidden;text-align:center;}
+.indexfoot img{width:40%;height:auto;overflow:hidden;display:block;margin:0 auto;}
+.indexfoot p{font-size:1.4rem;color:#595757;}
+
+
+/*内墙翻新*/
+.renovationBanner{width:100%;height:auto;position:relative;}
+.renovationBanner img{width:100%;height:auto;}
+.renovationBanner p{height:3em;line-height:3em;background:rgba(0, 0, 0, 0.43);position:absolute;bottom:0;left:0;width:100%;color:#fff;margin:0;font-size:1.4rem;padding:0 1em;}
+
+.renovationBox{padding:0 1em 1em;overflow:hidden;background:#fff;}
+.renovationBox h3{color:#333333;font-weight:bold;font-size:1.6rem;overflow:hidden;margin:1em 0 0.5em 0;}
+.renovationAbout{font-size:1.5rem;line-height:1.5em;}
+
+.renovationTable{overflow:Hidden;}
+.renovationTable table{border-collapse:collapse;}
+.renovationTable th{border:1px solid #ddd;text-align:center;padding:0.5em 0;font-size:1.4rem;color:#333;background:#f1f1f1;}
+.renovationTable td{border:1px solid #ddd;text-align:center;padding:0.5em 0;}
+.renovationTable td p{color:#f86900;font-size:1.2rem;}
+
+.renovationTable li{font-size:1.4rem;}
+.renovationTable li span{float:left;width:30%;}
+.renovationTable li label{color:#f86900;float:left;width:70%;}
+
+.renovationTable dl{margin-bottom:5px;}
+.renovationTable dt{color:#f86900;font-size:1.4rem;line-height:200%;font-weight:900;}
+.renovationTable dd{font-size:1.2rem;color:#666666;line-height:180%;}
+
+.renovationProcess{overflow:hidden;}
+.renovationProcess li{float:left;width:50%;line-height:2.5em;overflow:hidden;padding-left:25px;font-size:1.4rem;}
+.renovationProcess li.Process-1{background:url(../images/content-1.png) no-repeat left center;}
+.renovationProcess li.Process-2{background:url(../images/content-2.png) no-repeat left center;}
+.renovationProcess li.Process-3{background:url(../images/content-3.png) no-repeat left center;}
+.renovationProcess li.Process-4{background:url(../images/content-4.png) no-repeat left center;}
+.renovationProcess li.Process-5{background:url(../images/content-5.png) no-repeat left center;}
+.renovationProcess li.Process-6{background:url(../images/content-6.png) no-repeat left center;}
+.renovationProcess li.Process-7{background:url(../images/content-7.png) no-repeat left center;}
+
+.renovationCh{overflow:Hidden;margin-right:-2%;}
+.renovationCh dl{background:#f1f1f1;width:23%;margin-right:2%;float:left;height:auto;}
+.renovationCh dt{color:#ff5a00;font-weight:900;font-size:1.6rem;text-align:center;line-height:3em;}
+.renovationCh dd{padding:.5em .5em 1em .5em;color:#666;line-height:180%;height:14em;position:relative;}
+.renovationCh dd p{color:#39a2f5;font-weight:900;font-size:1.6rem;text-align:center;line-height:3em;position:absolute;bottom:0;width:100%;left:0;}
+.link{
+	margin: 1rem 0;
+	text-align:center;
+}
+.link .link-about,.link .link-content{
+	display: inline-block;
+	padding: 0 2rem;
+	color:#3b5687;
+	font-size:1.4rem;
+	line-height:1rem;
+}
+.link .link-about{
+	border-right:1px solid #3b5687;
+	margin-right:-1px;
+}
+
+ input[type="submit"],
+ input[type="reset"],
+ input[type="button"],
+ button { -webkit-appearance: none; }

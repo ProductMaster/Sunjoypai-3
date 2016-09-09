@@ -1,0 +1,115 @@
+/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+
+/* 主体 */
+html{
+  width: 100%;
+  font-size: 62.5%;
+}
+body{
+  font-family: "PingHei","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif", "Microsoft Yahei";
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+.container{
+    margin:auto;
+    width:100%;
+}
+.img1{
+    display: block;
+    width:100%;
+    border:none;
+}
+.clearfix:after { 
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden; 
+} 
+.clearfix {display: inline-block;}  /* for IE/Mac */  
+.icon{
+    margin:0;
+    padding:0;
+    height:1rem;
+}
+
+/* 正文 */
+.tit{
+    margin: 3rem 0 1rem;
+    background-color: #FFB62E;
+}
+.main{
+    width: 92%;
+    margin: 0 auto;
+}
+.tit .tit-t, .tit .tit-b{ 
+    background-color: #fff;
+    margin-left: 0.5rem;
+    padding-left: 4%;
+}
+.tit .tit-t{ 
+    color: #FFB62E;
+    font-size: 2rem;
+}
+.tit .tit-b{ 
+    font-size: 1.6rem;
+    color: #999999;
+}
+.slogan,.slogan2{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+.intro{
+    margin: 1rem 0 2rem;
+    position: relative;
+}
+.info1,.info2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+.info1{
+    background: url(../images/icon_01.jpg) no-repeat 0 0;
+    top: 0;
+    left: 0;
+}
+.info2{
+    background: url(../images/icon_02.jpg) no-repeat 0 0;
+    bottom: 0;
+    right: 0;
+}
+.content{
+    
+    width: 80%;
+    margin: 0.6rem auto 1rem;
+    font-size: 1.6rem;
+    color: #999999;
+    line-height: 1.5;
+}
+.het1{
+    height: 15.2rem;
+}
+.het2{
+    height: 25rem;
+}
+.het3{
+    height: 74.2rem;
+}
+.slogan2{
+    color: #000000;
+}
+.target{
+    margin:2rem  0 3rem;
+}
+.color{
+    color: #000000;
+}
+.nav-top{
+    margin-top: 1rem;
+}
+.nav-bottom{
+    margin-bottom: 6rem;
+}

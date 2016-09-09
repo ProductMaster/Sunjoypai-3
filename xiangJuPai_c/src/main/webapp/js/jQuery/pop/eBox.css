@@ -1,0 +1,52 @@
+#eBoxWrap{
+	border:1px solid #c4c4c4;
+}
+#eBox span.eBox-close{
+	right:10px;
+	top:6px;
+	z-index:9999;
+}
+#eBox span.eBox-min{
+	right:36px;
+	top:6px;
+	z-index:9999;
+}
+#eBox span.eBox-close img,#eBox span.eBox-min img{
+	cursor:pointer;
+}
+#eBox h6.eBox-title{
+	height:22px;
+	padding-top:4px;
+	font-size:12px;
+	text-indent:1em;
+	border-bottom:1px solid #c4c4c4;
+	background:#FF6D06;
+	color:#fff;
+	font-family:Tahoma;
+	font-weight:100;
+}
+#eBox h6.eBox-title a{
+	color:#ff3300;
+}
+#eBox h6.eBox-title span{
+	margin-left:6px;
+	margin-right:6px;
+}
+#eBox div.eBox-content{
+	padding:6px;
+	background:url(images/pop_mainbg.png) no-repeat right bottom;
+	
+} 
+#eBox div.eBox-content ul li{
+	font-size:12px;
+	height:16px;
+	padding-top:4px;
+	 color:#ddd;
+}
+#eBox div.eBox-content ul li a{ 
+   color:#117cc0;
+}
+.info_cont{width:300px;height:100px;background:url(images/bg_kcTips.png) no-repeat 5% 0;line-height:23px}
+.info_cont a{margin:15px 0 0 100px;font-size:14px}
+.info_cont a:link,.info_cont a:visited{color:#ff6d06}
+.info_cont a:hover,.info_cont a:active{color:#ff0000}

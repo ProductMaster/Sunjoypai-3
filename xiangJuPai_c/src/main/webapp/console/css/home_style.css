@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+.wrapBox {
+	background: url(../images/loginBg.jpg) no-repeat center top;
+}
+
+.wrap {
+	width: 900px;
+	min-height: 500px;
+	_height: 500px;
+	overflow: hidden;
+	margin: 0 auto;
+	background: url(../images/banner.png) no-repeat center top;
+	position: relative;
+}
+
+.logo {
+	font-family: "微软雅黑";
+	font-size: 24px;
+	color: #fff;
+	font-weight: 800;
+	position: absolute;
+	left: 0px;
+	top: 70px;
+}
+
+.loginBox {
+	width: 200px;
+	position: absolute;
+	top: 140px;
+	left: 633px;
+}
+
+.loginBoxIn {
+	width: 200px;
+}
+
+.loginBoxIn dl {
+	width: 200px;
+	overflow: hidden;
+	padding: 10px 0;
+	font-family: "微软雅黑";
+}
+
+.loginBoxIn dt {
+	width: 56px;
+	color: #000;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	float: left;
+	overflow: hidden;
+}
+
+.loginBoxIn dd {
+	width: 144px;
+	float: right;
+	overflow: hidden;
+}
+
+.loginBoxIn dd .loginBoxIn-input1 {
+	background: url(../images/loginBg.png) repeat-x left top #fff;
+	border: 1px solid #bdbec0;
+}
+
+.loginBoxIn dd .loginBoxIn-input1:focus {
+	border: 1px solid #1ea28e;
+}
+
+.loginBoxIn dd .loginBoxIn-input1:hover {
+	background: #e9ffe0;
+	border: 1px solid #1ea28e;
+}
+
+.material_geren_input {
+	width: 130px;
+	height: 23px;
+	display: inline;
+	font-family: "Arial";
+	padding-left: 5px;
+	line-height: 23px;
+}
+
+.material_geren_input1 {
+	width: 57px;
+	height: 23px;
+	display: inline;
+	font-family: "Arial";
+	padding-left: 5px;
+	line-height: 23px;
+}
+
+.loginBoxIn dd .loginBoxIn-button {
+	width: 78px;
+	height: 32px;
+	overflow: hidden;
+	background: url(../images/loginButton.png) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.loginBoxIn dd a.loginBoxIn-link {
+	height: 29px;
+	line-height: 25px;
+	color: #548d00;
+	text-decoration: underline;
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:app.xml</param-value>
+	</context-param>
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<!-- 
+	<listener>
+		<listener-class>com.fornow.common.listener.ActiveUserListener
+		</listener-class>
+	</listener>
+	 -->
+	<filter>
+		<filter-name>setCharacterEncodingFilter</filter-name>
+		<!-- <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class> -->
+		<filter-class>com.taoists.common.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	<filter>
+		<filter-name>openSessionInViewFilter</filter-name>
+		<filter-class>org.springframework.orm.hibernate4.support.OpenSessionInViewFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>setCharacterEncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>openSessionInViewFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<servlet>
+		<servlet-name>dispatcher</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>	
+	<servlet-mapping>
+		<servlet-name>dispatcher</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
+	<!-- 验证码配置开始 -->
+	<servlet>
+		<servlet-name>Kaptcha</servlet-name>
+		<servlet-class>com.google.code.kaptcha.servlet.KaptchaServlet</servlet-class>
+		<!-- 全都要数字 -->
+		<init-param>
+			<param-name>kaptcha.textproducer.char.string</param-name>
+			<param-value>0123456789</param-value>
+		</init-param>
+		<init-param>
+			<param-name>kaptcha.border</param-name>
+			<param-value>no</param-value>
+		</init-param>
+		<init-param>
+			<param-name>kaptcha.image.width</param-name>
+			<param-value>100</param-value>
+		</init-param>
+		<init-param>
+			<param-name>kaptcha.image.height</param-name>
+			<param-value>55</param-value>
+		</init-param>
+		<init-param>
+			<param-name>kaptcha.background.clear.from</param-name>
+			<param-value>white</param-value>
+		</init-param>
+		<init-param>
+			<param-name>kaptcha.background.clear.to</param-name>
+			<param-value>white</param-value>
+		</init-param>				
+		<init-param>
+			<param-name>kaptcha.textproducer.font.size</param-name>
+			<param-value>36</param-value>
+		</init-param>
+		<init-param>
+			<param-name>kaptcha.textproducer.char.length</param-name>
+			<param-value>4</param-value>
+		</init-param>
+		<init-param>  
+            <description>The noise producer. </description>  
+            <param-name>kaptcha.noise.impl</param-name>  
+            <param-value>com.google.code.kaptcha.impl.NoNoise</param-value>  
+        </init-param>  
+        <init-param>  
+            <description>The noise color. Legal values are r,g,b. </description>  
+            <param-name>kaptcha.noise.color</param-name>  
+            <param-value>black</param-value>  
+        </init-param>  
+        <init-param>  
+            <description>The obscurificator implementation. </description>  
+            <param-name>kaptcha.obscurificator.impl</param-name>  
+            <param-value>com.google.code.kaptcha.impl.ShadowGimpy</param-value>  
+        </init-param> 
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Kaptcha</servlet-name>
+		<url-pattern>/servlet/captcha.jpg</url-pattern>
+	</servlet-mapping>
+	<!-- 验证码配置结束 -->
+	<!-- 初始化加载常用数据到内存 -->
+	<servlet>
+		<servlet-name>ApplicationServlet</servlet-name>
+		<servlet-class>com.taoists.common.context.ApplicationServlet</servlet-class>
+		<load-on-startup>3</load-on-startup>
+	</servlet>
+	<!-- 初始化加载配置文件(system.properties)信息 -->
+	<servlet>
+		<servlet-name>Initializer</servlet-name>
+		<servlet-class>com.taoists.common.context.Initializer</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<jsp-config>
+		<taglib>
+			<taglib-uri>ueye</taglib-uri>
+			<taglib-location>/WEB-INF/ueyes.tld</taglib-location>
+		</taglib>
+	</jsp-config>
+	<error-page>
+	   <error-code>404</error-code>
+	   <location>/404.jsp</location>
+	</error-page>
+	<session-config>
+		<session-timeout>480</session-timeout>
+	</session-config>
+
+</web-app>

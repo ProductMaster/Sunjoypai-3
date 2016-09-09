@@ -1,0 +1,18 @@
+
+
+input.main{width:60%;border:none;height:30px;text-indent: 20px;font-size:15px;font-family: "微软雅黑";border-top: solid 3px #ddd;border-bottom: solid 3px #ddd;margin-top:10px;}
+label.delete{position: absolute;top:60px;right:30px;display: none;}
+.saveBtn{position: absolute;width:280px;left:0;right:0;margin:0 auto;top:240px;}
+
+.content{width;100%;background: #fff;border-bottom: solid 3px #ddd;border-top: solid 3px #ddd;margin-top:30px;}
+.content .head{margin-left:20px;border-bottom:solid 2px #ddd;width:100%;background-image: url(../images/arrow.png);background-position: 95% center;background-repeat: no-repeat;}
+.content .head2{margin-left:20px;width:100%;height:82px;}
+.content label{font-size:28px;float:left;margin-left:10px;line-height: 82px;}
+.content img{float:right;margin-right:80px;width:100px;height:100px;border-radius: 8px;overflow: hidden;margin-top:30px;}
+.content span{display: block;font-size:22px;color:#999;float:right;text-align: right;width:500px;margin-right:80px;line-height: 82px;}
+.content .sexBox{float:right;height:60px;width:160px;background: #fff;border-radius: 12px;overflow: hidden;margin:11px 30px;border: solid 1px #ddd;;}
+.content .sexBox .sex{width:80px;height:60px;line-height: 60px;text-align: center;color:#777;font-size:24px;float:left;}
+.content .sexBox .sex.active{background: #169bd5;color:#fff;}
+
+.content .head img.shop_head{width:180px;}
+

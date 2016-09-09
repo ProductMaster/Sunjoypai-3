@@ -1,0 +1,37 @@
+
+.big_pic{width:100%;position: relative;}
+.big_pic img{width:100%;}
+.big_pic .shop_desc{position: absolute;top:auto;bottom:0;height:176px;background: rgba(0,0,0,0.4);}
+.big_pic .shop_desc h1{font-size:40px;color:#fff;font-weight: 600;margin:20px 40px;}
+.big_pic .shop_desc p{font-size:28px;color:#fff;margin:0 40px;line-height: 40px;overflow: hidden;height:80px;}
+.promotion{width:100%;height:80px;margin-bottom:20px;background: #fff;padding-left:10px;box-sizing: border-box;font-size:28px;color:#555;}/*line-height: 80px;*/
+.promotion img{float:left;margin:22px;}
+
+.information{width:100%;height:242px;position: relative;background: #fff;margin-bottom:20px;}
+.information .right{height:242px;width:18%;border-left:solid 1px #aaa;text-align: center;float:right;padding:50px 20px;box-sizing: border-box;}
+.information h1{font-size:28px;color:#333;font-weight: 500;}
+
+.information .left{float:left;}
+.information .middle{float:left;width:400px;margin-left:20px;}
+.information .middle span{width:100%;height:80px;display: block;text-align: left;line-height: 80px;color:#555;font-size:24px;}
+
+.channel{height:80px;}
+.channel span{display: inline-block;width:375px;background: #d7d7d7;height:80px;text-align: center;line-height: 80px;font-size:28px;color:#333;float:left;}
+.channel span.active{background: #fff;}
+
+ul li{border-bottom: solid 1px #AAAAAA;padding-bottom:20px;}
+ul:last-child li{border:none;}
+ul li .cases .headPic{float:left;margin:20px 30px;width:84px;height:84px;}
+ul li .cases .headPic img{width:100%;height:100%;}
+ul li .cases .detail{float:left;width:600px;}
+ul li .cases .detail h2{font-size:32px;font-weight: 500;color:#666699;margin:10px 0 15px 10px;}
+ul li .cases .detail p{font-size:28px;line-height: 40px;margin:20px 10px;}
+ul li .cases .detail img{width:160px;height:160px;float:left;margin:10px 20px 10px 0;}
+
+ul.product{margin-left:4%;}
+ul.product li.product{border:none;padding:0;with:340px;display:inline-block;box-shadow: 2px 6px 4px rgba(0,0,0,0.5);margin-right:10px;margin-bottom:20px;}
+ul.product li.product h2{font-size:28px;font-weight: 500;width:70%;margin:7px 30px;}
+ul.product li.product h3{font-size:24px;font-weight: 500;color:#f86900;margin-left:25px;margin-top:7px;}
+
+
+

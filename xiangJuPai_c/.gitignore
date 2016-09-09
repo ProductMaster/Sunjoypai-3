@@ -1,0 +1,6 @@
+*.scc
+/target/
+/eclipseWorkspace/
+/.settings/
+/META-INF/
+*.class

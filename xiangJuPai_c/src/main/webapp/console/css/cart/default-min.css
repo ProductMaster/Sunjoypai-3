@@ -1,0 +1,101 @@
+@charset "utf-8"; 
+
+.tb-cart-bone {
+position: absolute;
+left: -9999px;
+z-index: 100000000;
+overflow: hidden;
+padding: 7px;
+}
+
+div {
+display: block;
+}
+
+.tb-cart-canvas {
+background-color: #333;
+opacity: .5;
+filter: alpha(opacity=50);
+position: absolute;
+z-index: 1;
+left: 0;
+top: 0;
+width: 500px;
+height: 999px;
+}
+
+.tb-cart-content {
+background: #fff;
+padding: 15px;
+position: relative;
+z-index: 2;
+min-width: 406px;
+_width: 406px;
+}
+
+.tb-cart-shut {
+position: absolute;
+right: 15px;
+top: 15px;
+background-position: 0 0;
+display: block;
+width: 19px;
+height: 18px;
+overflow: hidden;
+background:transparent url("../../images/shut.png") no-repeat;
+}
+
+.tb-cart-head {
+font-weight: 700;
+font-size: 14px;
+padding-left: 40px;
+height: 32px;
+line-height: 14px;
+background-position-x: 0px;
+background-position-y: 0px;
+background:url("../../images/yes.png") no-repeat;
+}
+
+.tb-cart-text {
+padding-left: 40px;
+}
+
+.tb-cart-stats {
+display: none;
+margin: -15px 0 10px;
+}
+p {
+display: block;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+
+
+.tb-cart-checkout {
+background-position-x: 0px;
+background-position-y: 0px;
+display: inline-block;
+margin-right: 10px;
+width: 112px;
+height: 31px;
+color: #fff;
+text-align: center;
+line-height: 30px;
+}
+.tb-cart-checkout{
+background:transparent url("http://img03.taobaocdn.com/tps/i3/T1EYY.XkVcXXbzhCMw-112-182.png") no-repeat;
+}
+
+a {
+color: #36c;
+}
+a {
+text-decoration: none;
+}
+a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}

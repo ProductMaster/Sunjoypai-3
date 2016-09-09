@@ -1,0 +1,12 @@
+.ac_results {
+	BORDER-RIGHT: gray 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: gray 1px solid; DISPLAY: none; PADDING-LEFT: 0px; Z-INDEX: 10000; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: gray 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: gray 1px solid; LIST-STYLE-TYPE: none; POSITION: absolute; BACKGROUND-COLOR: white
+}
+.ac_results LI {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; COLOR: #101010; PADDING-TOP: 2px; WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+.ac_over {
+	CURSOR: pointer; BACKGROUND-COLOR: #f0f0b8
+}
+.ac_match {
+	COLOR: black; TEXT-DECORATION: underline
+}

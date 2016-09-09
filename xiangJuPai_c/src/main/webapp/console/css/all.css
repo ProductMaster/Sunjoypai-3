@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+.title {
+	background-color: #FF9933;
+	padding: 5px;
+	font-size: 15px;
+	color: #FFFFFF;
+	border: dotted 1px #C0C0C0;
+	height: 20px;
+	width:990px;
+	margin-bottom:10px;
+}
+.tableth{
+	background-color: #8194AA;
+	color: #FFFFFF;
+}
+.warn {
+	background-color: #E0E2C9;
+	margin-bottom: 10px;
+	padding: 5px;
+	font-size: 18px;
+	color: #7F007F;
+	border: dotted 1px #C0C0C0
+}
+
+input.smallInput {
+	border: 1 solid black;
+	FONT-SIZE: 9pt;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: normal;
+	HEIGHT: 18px;
+	LINE-HEIGHT: normal;
+}
+
+.divHeaderTable {
+	width: 100%;
+	padding-bottom: 5px;
+	display: block;
+}
+
+.divHeaderRow {
+	width: 100%; /* add extra that you want to for header column */
+	display: block;
+	height: 105px;
+}
+
+.divHeaderColumn {
+	float: left;
+	width: 33%;
+	display: block;
+}
+
+.divTable {
+	width: 100%;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	border:5px sold #333333;
+}
+
+.divRow {
+	width: 100%;
+	display: block;
+	padding-bottom: 5px;
+	margin-bottom:10px;
+	border:5px sold #666666;
+}
+.divColumnTitle {
+	float: left;
+	display: block;
+	border: 1px solid #ff6633;
+	BACKGROUND: #fff1d1;
+}
+.divColumnContent {
+	float: left;
+	display: block;
+	border: 1px solid #d4d4d4;
+	BACKGROUND: #8194AA;
+}
+.divColumnBottom {
+	float: left;
+	display: block;
+	border: 1 solid #ff6633;
+	BACKGROUND: #ffcc00;
+}
+input.buttonface {
+	BACKGROUND: #ffcc00;
+	border: 1 solid #ff6633;
+	COLOR: #ff0000;
+	FONT-SIZE: 9pt;
+	FONT-STYLE: normal;
+	FONT-VARIANT: normal;
+	FONT-WEIGHT: normal;
+	HEIGHT: 18px;
+	LINE-HEIGHT: normal
+}

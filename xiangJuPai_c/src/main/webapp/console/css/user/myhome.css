@@ -1,0 +1,59 @@
+@charset "utf-8";
+.new-header-v1{background:#edecec;}
+.new-header-v1 .new-a-back span{background:url(/images/touch2013/icon_back.png) 0 0 no-repeat;background-size:10px 19px;}
+.new-a-jd2{position:absolute;top:6px;right:7px;width:37px;height:30px;}
+.new-header-v1 .new-a-jd2 span{
+	display:inline-block;
+	width:21px;
+	height:21px;
+	margin:5px 0 0 8px;
+	background:url(/images/touch2013/icon_jdj.png) 0 0 no-repeat;
+	background-size:21px 20px;text-indent:-9999px;}
+.new-a-back-v1{background-position:3px -1431px;}
+.new-user-infobox{position:relative;}
+.new-user-photo{display:inline-block;position:absolute;left:10px;bottom:10px;z-index:100;width:75px;height:75px;}
+.new-bg-img{position:relative;min-width:320px;height:103px;background:#853600 url(/images/touch2013/bg_img.png) 50% 0 no-repeat;}
+.new-user-info{position:absolute;bottom:0;width:100%;height:36px;background:rgba(0,0,0,.3);color:#fff;}
+.new-user-info .new-txt,.new-user-info .new-txt2{display:block;margin-left:100px;line-height:16px;}
+.new-user-info .new-txt{line-height:20px;}.new-user-info .new-txt2{font-size:12px;}
+.new-a-message{position:absolute;right:0;bottom:0;width:69px;height:20px;padding:8px 0;font-size:12px;color:#fff;}
+.new-a-message .new-txt3,.new-a-message .new-txt4{display:inline-block;height:20px;line-height:20px;}
+.new-a-message .new-txt3{width:20px;background-color:#cd2a2c;line-height:20px;text-align:center;border-radius:3px;}
+.new-user-info2{
+	width:100%;
+	height:49px;
+	background:#fff;
+	background:-webkit-gradient(linear,center top,center bottom,from(#fff),color-stop(.6,#fff),color-stop(.6,#fff),to(#e5e2e2));
+	background:-moz-linear-gradient(center top,#fff 0,#fff 60%,#fff 60%,#e5e2e2 100%) repeat scroll 0 0;}
+.new-info-tbl-box{margin-left:90px;}
+.new-info-tbl{display:table;width:100%;padding:5px 0 1px;}
+.new-info-tbl .new-tbl-cell{display:table-cell;}
+.new-info-tbl .new-tbl-cell span{display:block;font-size:12px;text-align:center;}
+.new-section-lst{padding:20px 12px 30px;}
+.new-lst-ul{margin-bottom:20px;border:1px solid #999;}
+.new-lst-ul .new-lst-li{border-top:1px solid #999;}
+.new-lst-ul .new-lst-li .new-txt-rd{display:inline-block;margin-left:40px;}
+.new-lst-ul .new-lst-li:first-child{border-top:none;}
+.new-lst-ul .new-lst-li a{display:block;position:relative;padding:10px 12px;font-size:14px;color:#6e6e6e;}
+.new-lst-ul .new-lst-li a .new-arr{
+	position:absolute;
+	top:16px;
+	right:12px;
+	width:10px;
+	height:10px;
+	background:url(/images/touch2013/icon.png) 100% -194px no-repeat;}
+.new-call-center{padding:10px 0;background:#4a9b21;font-size:14px;color:#fff;}
+.new-call-center .tell-tit{width:87px;padding-right:15px;border-right:1px solid #fff;text-indent:20px;}
+.new-call-center .tell-num{background:url(/images/touch2013/call-center.png) 50% 4px no-repeat;text-indent:-9999px;}
+.new-call-center span{padding-left:15px;}.new-ct{background-color:#FFF;min-height:150px;}
+.new-myjd-home{position:absolute;top:6px;right:12px;width:32px;height:30px;line-height:30px;text-align:center;}
+.new-myjd-home span{
+	display:inline-block;
+	width:22px;
+	height:22px;
+	margin-top:5px;
+	background:url(/images/touch2013/icon2b.png) -60px -25px no-repeat;
+	background-size:180px 180px;
+	text-indent:-9999px;}
+.new-txt-float{float:left;width:80px;}
+.new-block-ctr{display:block;padding-right:85px;text-align:center;}

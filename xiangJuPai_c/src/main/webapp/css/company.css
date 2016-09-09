@@ -1,0 +1,85 @@
+/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+
+/* 主体 */
+html{
+  width: 100%;
+  font-size: 62.5%;
+}
+body{
+  font-family: "PingHei","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif", "Microsoft Yahei";
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+.container{
+    margin:auto;
+    width:100%;
+}
+.img1{
+    display: block;
+    width:100%;
+    border:none;
+}
+/* 正文 */
+.tit{
+    margin: 3rem 0 2rem;
+    background-color: #FFB62E;
+}
+.main{
+    width: 92%;
+    margin: 0 auto;
+}
+.tit .tit-t, .tit .tit-b{ 
+    background-color: #fff;
+    margin-left: 0.5rem;
+    padding-left: 4%;
+}
+.tit .tit-t{ 
+    color: #FFB62E;
+    font-size: 2rem;
+}
+.tit .tit-b{ 
+    font-size: 1.6rem;
+    color: #999999;
+}
+.info{
+    background: url(../images/icon1.jpg) no-repeat 0 4px;
+    margin: 1rem 0;
+    height: 2rem;
+}
+.info span{
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #999999;
+}
+@media only screen and (max-device-width: 360px){
+.info span{
+    font-size: 1.2rem;
+}
+}
+.info1{
+    background-position: 0 -42px;
+}
+.info2{
+    background-position: 0 -90px;
+}
+.info3{
+    background-position: 0 -136px;
+}
+.info4{
+    background-position: 0 -188px;
+}
+.content{
+    font-size: 1.4rem;
+    color: #999999;
+    line-height: 2.6rem; 
+}
+.nav-top{
+    margin-top: 1rem;
+}
+.nav-bottom{
+    margin-bottom: 6rem;
+}

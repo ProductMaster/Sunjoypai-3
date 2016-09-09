@@ -1,0 +1,60 @@
+@charset "utf-8";
+/*CSS reset*/
+html{color:#000; font-size:12px;font-family: "Microsoft YaHei","Helvetica Neue","Hiragino Sans GB","Segoe UI",Tahoma,Arial,STHeiti,sans-serif;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}
+del,ins{text-decoration:none;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:baseline;}
+sub{vertical-align:baseline;}
+legend{color:#000;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+a:link,a:visited{ text-decoration:none}
+a:hover,a:active{ text-decoration:none}
+a{ blr:expression(this.onFocus=this.blur()); /* IE Opera */ outline:none; /* FF Opera */ } a:focus{ -moz-outline-style: none; /* FF */ } 
+/*文字排版*/
+.f12{font-size:12px;}
+.f14{font-size:14px;}
+.fb{font-weight:bold}
+.fn{font-weight:normal;}
+.t2{text-indent:2em;}
+.lh24{line-height:24px;}
+/*定位*/
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.cb{clear:both;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.none{display:none;}
+.mt-10{margin-top:10px;}
+.pl-25{padding-left:25px;}
+.pl-35{padding-left:35px;}
+.l-40{line-height:40px;}
+.mt-15{margin-top:15px;}
+.f-20{font-family: "Microsoft Yahei";font-size:20px;}
+.f-24{font-family: "Microsoft Yahei";font-size:24px;}
+.f-16{font-family: "Microsoft Yahei";font-size:16px;}
+.f-12{font-family: "Microsoft Yahei";font-size:12px;}
+.f-14{font-family: "Microsoft Yahei";font-size:14px;}
+.f-18{font-family: "Microsoft Yahei";font-size:18px;}
+.bold{font-weight:bold;}
+.white{color:#FFFFFF;}
+.ddd{color:#ddd;}
+.nob{font-weight:normal;}
+.clearfix:after, .nav:after, .sub-nav:after, .block-title:after, .block-content:after, .taobusi .category-box:after, .laichacha-gallery .shop-header:after, .laichacha-gallery .taobao-service:after, .laichacha-gallery .charts-box:after, .product-map .item-title-box:after, .product-map .product-map-content:after, .bread-crumbs .page:after, .waterfall:after, .product-nav:after, .activity-img-content .activity-img:after, .activity-item .time-location:after, .activity-nav:after, .case-box:after, .company-overview:after, .app-store .page:after, .app-store .app-group:after, .home .main-products:after, .home .product-tab:after, .home .waterfall:after, .home .panel-product-title:after, .home .right-more-link:after, .home .activities-list:after, .site-main .index-product-list:after, .site-main .not-app-list:after, .site-main .typical-case .index-case-box:after, .site-main .typical-case .index-case-list:after, .site-main .activity-list .page:after, .site-main .media-list:after, .site-main .media-item:after, .site-main .media-item-auto:after, .site-main .honor-list:after, .site-main .other-title:after, .site-main .links-list:after, .site-main .links-pic-list:after, .site-footer .page:after, .site-footer .logo-weibo:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}

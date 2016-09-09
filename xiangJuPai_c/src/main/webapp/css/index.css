@@ -1,0 +1,19 @@
+
+.title{width:100%;height:92px;background: url(../images/navi.jpg)no-repeat;}
+.title .navi_container{width:620px;margin-left:130px;overflow-x: scroll;overflow-y: hidden;-webkit-overflow-scrolling: touch;}
+.title .navi{height:85px;line-height: 85px;font-size:26px;color:#999;width:1200px;}
+.title .navi span{margin:0 40px;text-align: center;float:left;}
+.title .navi span.active{border-bottom:solid #f86900 6px;color:#F86900;}
+
+
+
+
+
+.container{width:100%;height:auto;position: absolute;top:120px;padding-bottom: 113px;}
+.container li{margin-top:20px;background: #fff;position: relative;height:240px;}
+.container li .pic{margin:20px 0 0 30px;width:160px;height:160px;}
+.container li .shopData{position: absolute;left:220px;top:0;width:800px;}
+.container li .shopData h2{font-size:30px;font-weight: 500;width:90%;margin:15px 0 10px 0;}
+.container li .shopData h3{font-size:26px;font-weight: 500;width:90%;color:#999999;margin:15px 0;}
+.container li .shopData .promotion{height:50px;font-size:26px;line-height: 50px;color:#999;}
+.container li .shopData .promotion img{vertical-align: middle;margin:7px;float:left;}

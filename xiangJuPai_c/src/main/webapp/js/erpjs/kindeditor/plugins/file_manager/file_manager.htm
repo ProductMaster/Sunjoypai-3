@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>File Manager</title>
+		<link type="text/css" rel="stylesheet" href="./file_manager.css" />
+		<script type="text/javascript" charset="utf-8" src="./file_manager.js"></script>
+		<script type="text/javascript">
+		
+		</script>
+		<script type="text/javascript">
+		function do_upload_img(){
+			document.getElementById("uploadForm").action = "/uploadImage.html?currentFileName="+document.getElementById("currentFileName").value;
+			document.getElementById("uploadForm").submit();
+			
+		}
+		</script>
+	</head>
+	<body>
+		<form id="uploadForm"  name="uploadForm" method="post" enctype="multipart/form-data" target="uploadIframe">
+			<input type="hidden" id="currentFileName" name="currentFileName" value=""  />
+			<input type="hidden" id="editorId" name="id" value="" />
+			<table class="top" border="0" cellpadding="0" cellspacing="0" width="100%">
+				<tr>
+					<td>
+					上传图片: <input type="file" id="imgFile" name="imgFile" style="width:300px;" />
+					</td>
+					<td >
+					<div class="ke-dialog-bottom">
+					<input class="ke-button ke-dialog-yes" type="button" onclick="do_upload_img()" name="yesButton" value="确定">
+					</div>
+					</td>
+				</tr>
+			</table>
+		</form>
+		
+		<table class="top" border="0" cellpadding="0" cellspacing="0" width="100%">
+		
+			
+			<tr>
+				<td>
+					<img id="moveupImg" src="./images/go-up.gif" width="16" height="16" border="0" alt="" align="absmiddle" />
+					<a id="moveup" href="javascript:;"><span id="lang.moveup"></span></a>
+				</td>
+				<td align="right">
+					<span id="lang.viewType"></span><select id="viewType" name="viewType"></select>
+					<span id="lang.orderType"></span><select id="orderType" name="orderType"></select>
+				</td>
+			</tr>
+			<tr>
+				<td height="5"></td>
+				<td height="5"></td>
+			</tr>
+			
+		</table>
+		<div id="listDiv" class="file-list"></div>
+		<div id="viewDiv" class="file-view"></div>
+	</body>
+</html>
